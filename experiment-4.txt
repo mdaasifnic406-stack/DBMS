@@ -33,11 +33,11 @@ SQL> select person_id,fname
 
  PERSON_ID FNAME
 ---------- ---------------
-         1 sneha
-         2 puja
-         3 riya
-         4 sandip
-         5 alpesh
+     1      sneha
+     2      puja
+     3      riya
+     4      sandip
+     5      alpesh
 
 SQL> select fname
   2  from person2;
@@ -56,11 +56,11 @@ SQL> select person_id,fname,salary
 
  PERSON_ID FNAME               SALARY
 ---------- --------------- ----------
-         2 puja                  2000
-         4 sandip                5000
-         3 riya                  8000
-         1 sneha                10000
-         5 alpesh               20000
+    2        puja                2000
+    4        sandip              5000
+    3        riya                8000
+    1        sneha               10000
+    5        alpesh              20000
 
 SQL> select distinct city
   2  from person2;
